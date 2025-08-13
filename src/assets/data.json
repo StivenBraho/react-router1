@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "location": "Remote",
+    "description": "We are looking for a passionate Frontend Developer to join our team. You will work on React applications, collaborate with designers and backend developers, and help deliver top-notch products.",
+    "requirements": [
+      "3+ years of React experience",
+      "Strong JavaScript knowledge",
+      "Experience with REST APIs"
+    ],
+    "benefits": [
+      "Flexible working hours",
+      "Health insurance",
+      "Team retreats"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer",
+    "location": "New York, USA",
+    "description": "Join our backend team to design and implement scalable APIs and microservices. You’ll work closely with frontend developers to ensure smooth integrations.",
+    "requirements": [
+      "Node.js experience",
+      "Database design knowledge",
+      "REST & GraphQL"
+    ],
+    "benefits": [
+      "Remote-friendly",
+      "Paid time off",
+      "Professional development"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Designer",
+    "location": "London, UK",
+    "description": "Design user-friendly interfaces and experiences for web and mobile applications. Collaborate with product managers and developers to bring ideas to life.",
+    "requirements": [
+      "Experience with Figma or Sketch",
+      "Strong visual design skills",
+      "Understanding of user-centered design"
+    ],
+    "benefits": [
+      "Flexible working hours",
+      "Health insurance",
+      "Team building activities"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "DevOps Engineer",
+    "location": "Berlin, Germany",
+    "description": "Maintain CI/CD pipelines, cloud infrastructure, and optimize deployment workflows for scalable applications.",
+    "requirements": [
+      "Experience with AWS or Azure",
+      "Docker & Kubernetes knowledge",
+      "CI/CD pipeline management"
+    ],
+    "benefits": [
+      "Remote work options",
+      "Health insurance",
+      "Professional training"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mobile App Developer",
+    "location": "Remote",
+    "description": "Create cross-platform mobile applications using React Native or Flutter. Collaborate with designers and backend developers to deliver high-quality apps.",
+    "requirements": [
+      "Experience with React Native or Flutter",
+      "Knowledge of mobile UI/UX best practices",
+      "Integration with APIs"
+    ],
+    "benefits": [
+      "Flexible schedule",
+      "Remote work",
+      "Team retreats"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Product Manager",
+    "location": "San Francisco, USA",
+    "description": "Lead product development, coordinate teams, and deliver successful product launches while understanding customer needs.",
+    "requirements": [
+      "Strong project management skills",
+      "Experience in agile methodologies",
+      "Excellent communication skills"
+    ],
+    "benefits": [
+      "Paid vacation",
+      "Health insurance",
+      "Professional development"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "QA Engineer",
+    "location": "Toronto, Canada",
+    "description": "Test applications, write automated tests, and ensure high-quality software releases in collaboration with developers.",
+    "requirements": [
+      "Experience with testing frameworks",
+      "Knowledge of automated testing",
+      "Attention to detail"
+    ],
+    "benefits": [
+      "Flexible hours",
+      "Remote-friendly",
+      "Professional training"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Data Scientist",
+    "location": "Remote",
+    "description": "Analyze large datasets, create predictive models, and provide insights for business decisions.",
+    "requirements": [
+      "Experience with Python or R",
+      "Knowledge of ML algorithms",
+      "Data visualization skills"
+    ],
+    "benefits": [
+      "Remote work",
+      "Flexible hours",
+      "Team events"
+    ]
+  }
+]

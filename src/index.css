@@ -1,0 +1,386 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-left: 710px;
+    padding: 0;
+}
+
+.navbar ul li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar ul li a {
+    color: #333;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active-link {
+    color: #3814d8;
+}
+
+.navbar button {
+    padding: 11px 25px;
+    background-color: #3814d8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+    background-color: #2c0fb0;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.container h1{
+  font-size: 70px;
+  font-weight: 5000;
+
+}
+
+.contact-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-buttons button {
+  padding: 10px 21px;
+  background-color: #3814d8;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.contact-buttons button:hover {
+    background-color: #2c0fb0;
+}
+
+.contact-info {
+  max-width: 400px; 
+  margin: 0 auto;   
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.contact-info > div {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  text-align: center;   
+  width: 100%;
+}
+
+.contact-info label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-info input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-info input:focus {
+  border-color: #4A90E2;
+  outline: none;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 5px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007bff;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #3814d8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+    background-color: #2c0fb0;
+}
+
+.notfound-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.notfound-container h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.notfound-container button {
+    padding: 12px 25px;
+    background-color: #3814d8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.notfound-container button:hover {
+    background-color: #2c0fb0;
+}
+
+.jobs-page {
+    max-width: 1000px;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.jobs-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 280px;
+    margin-bottom: 30px;
+    color: #black;
+}
+
+.jobs-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.job-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.job-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #3814d8;
+}
+
+.job-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.job-card button {
+    padding: 10px 20px;
+    background-color: #3814d8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.job-card button:hover {
+    background-color: #2c0fb0;
+}
+
+.job-details-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.job-details-container .job-title {
+    font-size: 38px; /* smaller than before */
+    font-weight: 700;
+    color: #3814d8;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.job-meta {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.job-description {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.job-details-container h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3814d8;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-left: 220px;*/
+}
+
+.job-details-container ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-left: 230px;*/
+}
+
+.job-details-container ul li {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.apply-button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 28px;
+    background-color: #3814d8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #2c0fb0;
+}
+
+
+
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: op timizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ */
